@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Exempel på utförda arbeten hos nöjda kunder till Kameraövervakning i Östergötland"
+    />
+    <meta
+      name="keywords"
+      content="nöjda kunder, bensinstationer, livsmedelsbutiker, ICA-handlare, Willys, Shell, Servistore, OKQ8, Circle-K, Mc Donalds"
+    />
+    <meta name="author" content="Ebbestad Holding AB" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kameraövervakning i Östergötland</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+
+      <!-- left and right -->
+      <button id="left" onclick="left()">❰</button>
+      <button id="right" onclick="right()">❱</button>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01" />
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+    <p class="back s">
+      <img src="../images/arrow.jpg" alt="" class="arrow" />Tillbaka till
+      startsidan
+    </p>
+
+    <div class="gallery-container">
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id),leftoff()"
+            src="./images/ss_1_small.jpg"
+            srcset="./images/ss_1.jpg 1"
+            alt="Moderna högupplösta (8 Mp) dome-kameror skapar trygghet hos Servistore i Stockholm"
+            id="./images/ss_1.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/ss_2_small.jpg"
+            alt="Vi tydliggör kamerabevakningen vilket skapar trygghet och förebygger brott. Här hos Servistore i Stockholm"
+            id="./images/ss_2.jpg"
+            class="margin"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/ss_3_small.jpg"
+            alt="Människoföljande AI-kameror skapar trygghet på större ytor - i detta fall hos Servistore i Stockholm"
+            id="./images/ss_3.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/4 2.jpg"
+            alt="Personsökande intelligent kamera skapar trygghet och förebygger brott, framförallt nattetid, hos Preem i Ljungsbro"
+            id="./images/4.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/1 10.jpg"
+            alt="Dome kameror med optisk zoom hos ICA Supermarket"
+            id="./images/1.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/10 1.jpg"
+            alt="Kamerabevakning hemma ger ökad trygghet för familjen"
+            id="./images/10.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/11 1.jpg"
+            alt="Frida arbetar på vårt lager och säkerställer korrekta leveranser i rätt tid"
+            id="./images/11.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/15 1.jpg"
+            alt="Bensinstationer vill ofta övervaka sin bränsleförsäljning, fordonsflotta och tvätthallar"
+            id="./images/15.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/ss_4_small.jpg"
+            alt="Här ett serverrum hos Servistore. Allt tydligt dokumenterat, strukturerat och uppmärkt. Det sparar pengar i framtiden!"
+            id="./images/ss_4.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/16 2.jpg"
+            alt="Kent Sköld, partnerföretaget Sköld Security, installerar intelligent kamera över lastzonen hos ett transportföretag"
+            id="./images/16.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/2 3.jpg"
+            alt="Kent Sköld, installatör, monterar takmonterad kamera i en ICA-butik"
+            id="./images/2.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/21 1.jpg"
+            alt="Bildexempel (före vårt arbete) från ett innertak i en livsmedelsbutik. Vi hjälper er skapa bättre struktur vilket på sikt ger lägre servicekostnader och även minskar brandrisken"
+            id="./images/21.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/3 2.jpg"
+            alt="Övervaka alltid stöldbegärliga varor såsom chark, godis, energidrycker och tobak"
+            id="./images/3.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/6 1.jpg"
+            alt="Höghastighetslagring i form av optiska hårddiskar eller SSD teknik i våra NVR/XVR-servrar"
+            id="./images/6.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id)"
+            src="./images/8 1.jpg"
+            alt="De många inställningsmöjligheterna i våra servrar ger stor flexibilitet för våra kunder"
+            id="./images/8.jpg"
+          />
+        </div>
+      </div>
+      <div class="image">
+        <div class="in-img s">
+          <img
+            onclick="focusPic(this.id),rightoff()"
+            src="./images/9 1.jpg"
+            alt="Utrustningen skall synas på ett distret men snyggt sätt för bästa preventiva effekt"
+            id="./images/9.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="../minified/gsap.min.js"></script>
+    <script src="../minified/ScrollTrigger.min.js"></script>
+    <script src="../minified/CustomEase.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
